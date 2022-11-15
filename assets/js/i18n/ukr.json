@@ -2,5 +2,8 @@
     "html-title" : "Церква Прорив",
     "ukrLocale" : "УКР",
     "engLocale" : "ENG",
-    "rusLocale" : "РУС"
+    "rusLocale" : "РУС",
+    "main-page" : "Головна",
+    "about-us" : "Про нас",
+    "contact-us" : "Контакти"
 }

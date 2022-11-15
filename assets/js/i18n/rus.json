@@ -2,5 +2,8 @@
     "html-title" : "Церковь Прорыв",
     "ukrLocale" : "УКР",
     "engLocale" : "ENG",
-    "rusLocale" : "РУС"
+    "rusLocale" : "РУС",
+    "main-page" : "Главная",
+    "about-us" : "О нас",
+    "contact-us" : "Контакты"
 }

@@ -1,0 +1,300 @@
+@font-face {
+	font-family: 'KelsonRegularRU';
+	src: url('../fonts/KelsonSansRegularRU.otf');
+}
+
+@font-face {
+	font-family: 'KelsonRegularEN';
+    src: url('../fonts/KelsonSansRegular.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+	background-color: #141414;
+	font-family: 'KelsonRegularRU', Helvetica, serif;
+}
+
+.brand-img {
+	height: 10vmin;
+	width: auto;
+	padding: 0px;
+	margin-right: 30vw;
+}
+
+@media (min-width: 768px) {
+	.brand-img {
+		height: 50px;
+		margin: auto;
+	}
+}
+
+.ukr-flag {
+    content: url(../icons/flags/UA.png);
+}
+
+.eng-flag {
+    content: url(../icons/flags/GB.png);
+}
+
+.rus-flag {
+	content: url(../icons/flags/RU.png);
+}
+
+.dropdown-menu {
+    background-color: #141414;
+}
+
+.dropdown-item:hover {
+    background-color: grey;
+}
+
+section#home-page {
+	font-family: 'KelsonRegularRU', Helvetica, serif;
+	background-image: url('../images/homepage/home-background.png');
+	background-size: cover;
+	height: 100vh;
+}
+
+.company-header {
+	font-size: 6vmin;
+	margin-top: 30vmin;
+}
+
+@media screen and (min-width: 500px) {
+	.company-header {
+		font-size: 35px;
+		margin-top: 20vmin;
+	}
+}
+
+.more-button {
+	border-radius: 14px;
+	border-width: 1px;
+	border-color: #303030;
+	margin-bottom: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 12px;
+	background-color: #141414;
+	color: white;
+	text-transform: uppercase;
+}
+
+.more-button:hover {
+	background-color: transparent;
+	border-color: #141414;
+	font-weight: bold;
+}
+
+.more-button:active {
+	background-color: white;
+	color: black;
+	outline-color: white;
+}
+
+section#categories-page {
+	background-color: #3B3B3B;
+	font-family: 'KelsonRegularRU', Helvetica, serif;
+}
+
+.container-fluid {
+	padding-left: 10vmin;
+	padding-right: 10vmin;
+}
+
+.category-header {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	padding-top: 6%;
+}
+
+.category-logo {
+	width: 80vw;
+	opacity: 0.7;
+}
+
+.category-logo:hover {
+	opacity: unset;
+}
+
+.activated {
+	opacity: unset;
+}
+
+.cat-table {
+	border-width: 1px;
+	font-size: small;
+}
+
+@media (min-width: 992px) {
+	.category-logo {
+		width: 25vw;
+	}
+}
+
+.notice {
+	text-transform: none;
+}
+
+.list-spacing {
+	margin-bottom: 3vmin;
+}
+
+.text-description {
+	font-size: 2vmin;
+}
+
+.letter-spacing {
+	letter-spacing: 0.15rem;
+}
+
+.horizontal-line {
+    border-width: 2px;
+    border-radius: 1px;
+    border-color: #141414;
+    background-color: #3B3B3B;
+}
+
+caption {
+	color: beige;
+	caption-side: top;
+}
+
+.xsmall {
+	font-size: 12px;
+}
+
+section#about-us-page {
+	font-family: 'KelsonRegularRU', Helvetica, serif;
+	background-color: #3B3B3B;
+	height: auto;
+	padding-left: 5vmin;
+	padding-right: 5vmin;
+
+}
+
+.image-spacing {
+	width: 80vw;
+	height: auto;
+	margin-bottom: 5%;
+}
+
+@media (min-width: 992px) {
+	.image-spacing {
+		height: 30vw;
+		width: auto;
+		margin-bottom: 5%;
+	}
+}
+
+.row-spacing {
+	padding-top: 10%;
+	line-height: 0.1rem;
+}
+
+.header-about-us {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+}
+
+.text-about-us {
+	margin-top: 1.5rem;
+	font-size: 3.5vmin;
+	font-weight: 100;
+	letter-spacing: .17rem;
+	color: white;
+	line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+	.text-about-us {
+		font-size: 2.5vmin;
+	}
+}
+
+section#contacts-page {
+	font-family: 'KelsonRegularRU', Helvetica, serif;
+	background-color: #3B3B3B;
+	height: auto;
+	padding-bottom: 3%;
+	padding-top: 6%;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.container-fluid {
+	padding-left: 5vmin;
+	padding-right: 5vmin;
+}
+
+.jumbotron {
+	background-color: grey;
+	padding-right: 5vw;
+	padding-left: 5vw;
+}
+
+.header-text {
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: 700;
+	color: white;
+	letter-spacing: .17rem;
+}
+
+.contact-icon {
+	height: 3vmin;
+}
+
+.contact-letter-spacing {
+	letter-spacing: .17vmin;
+	font-size: 3.5vmin;
+}
+
+@media (min-width: 992px) {
+	.contact-letter-spacing {
+		font-size: 2.5vmin;
+	}
+}
+
+.image-map {
+	width: 70vw;
+}
+
+@media (min-width: 992px) {
+	.image-map {
+		width: 25vw;
+	}	
+}
+
+.image-map-modal {
+	height: 80vmin;
+	width: auto;
+}
+
+.modal-body-transparent {
+	background-color: transparent;
+	margin-right: 10vw;
+	margin-left: 10vw;
+	padding-right: 0;
+	padding-left: 0;
+	width: 80vw;
+}
+
+.footer-styled {
+	font-family: 'KelsonRegularRU', Helvetica, serif;
+	background-color: #141414;
+}
+
+.text-year, .text-company {
+	color: white;
+	letter-spacing: .17rem;
+	font-size: 2.5vmin;
+}

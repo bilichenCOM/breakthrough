@@ -1,6 +1,9 @@
 {
-    "html-title" : "Omega Trade Invest",
+    "html-title" : "Breakthrough Church",
     "ukrLocale" : "UKR",
     "engLocale" : "ENG",
-    "rusLocale" : "RUS"
+    "rusLocale" : "RUS",
+    "main-page" : "Main",
+    "about-us" : "About us",
+    "contact-us" : "Contact us"
 }

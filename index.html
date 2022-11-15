@@ -6,7 +6,7 @@
   <!-- <base href="/"> -->
 
   <meta name="viewport" content="width=device-width, user-scalable=no">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="assets/images/breakthrough.jpg">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
   <link rel="localization" hreflang="en" href="./assets/js/i18n/eng.json" type="application/l10n+json" crossorigin="anonymous">
@@ -14,7 +14,54 @@
 </head>
 <body>
   
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top text-uppercase">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <img class="navbar-brand brand-img img-responsive d-block d-lg-none" src="./assets/images/breakthrough.jpg">
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav col-sm-5 px-sm-0">
+
+        <!-- I18N -->
+        <li class="nav-item dropdown my-auto mx-sm-0 mx-lg-auto">
+          <a class="nav-link dropdown-toggle switch-locale bg-light" data-locale="ukr" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="ukr-flag mr-1"></span><span data-i18n="ukrLocale"></span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="nav-link dropdown-item switch-locale" data-locale="eng" href="#">
+              <span class="eng-flag mr-1"></span><span data-i18n="engLocale"></span>
+            </a>
+            <a class="nav-link dropdown-item switch-locale" data-locale="rus" href="#">
+              <span class="rus-flag mr-1"></span><span data-i18n="rusLocale"></span>
+            </a>
+          </div>
+        </li>
+        <!--  -->
+  
+        <li class="nav-item my-auto mx-sm-0 mx-lg-auto">
+          <a class="nav-link my-auto" href="#categories-page" data-i18n="main-page"></a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav col-sm-2 text-center d-none d-lg-block px-0">
+        <li class="nav-item my-auto">
+          <a class="nav-link navbar-brand my-0 py-0 px-0 mx-0" href="#home-page">
+            <img id="center-logo" class="brand-img img-fluid" src="./assets/images/breakthrough.jpg">
+          </a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav col-sm-5 px-sm-0">
+        <li class="nav-item my-auto mx-sm-0 mx-lg-auto">
+          <a class="nav-link" href="#about-us-page" data-i18n="about-us"></a>
+        </li>
+        <li class="nav-item my-auto mx-sm-0 mx-lg-auto">
+          <a class="nav-link" href="#contacts-page" data-i18n="contact-us"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
 

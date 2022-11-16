@@ -2,12 +2,11 @@ html, body {
     scroll-behavior: smooth;
 }
 
-	.brand-img {
-		height: 80px;
-		width: auto;
-		margin: auto;
-	}
-
+.brand-img {
+  height: 80px;
+  width: auto;
+  margin: auto;
+}
 
 .ukr-flag {
     content: url(../icons/flags/UA.png);
@@ -58,4 +57,9 @@ html, body {
 	font-size: xx-large;
 	margin-right: 10vw !important;
 	color: #40A399;
+}
+
+.header {
+  font-size: xx-large;
+  color: #40A399;
 }

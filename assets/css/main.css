@@ -1,21 +1,13 @@
-html {
+html, body {
     scroll-behavior: smooth;
 }
 
-.brand-img {
-	height: 10vmin;
-	width: auto;
-	padding: 0px;
-	margin-right: 30vw;
-}
-
-@media (min-width: 768px) {
 	.brand-img {
 		height: 80px;
 		width: auto;
 		margin: auto;
 	}
-}
+
 
 .ukr-flag {
     content: url(../icons/flags/UA.png);
@@ -27,4 +19,43 @@ html {
 
 .rus-flag {
 	content: url(../icons/flags/RU.png);
+}
+
+.carousel {
+	margin-top: 90px;
+	background-image: url(../images/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 70vh;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  font-weight: bold;
+  color: #40A399;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  font-weight: bold;
+  color: #40A399;
+}
+
+.snippet {
+	font-size: xx-large;
+	margin-right: 10vw !important;
+	color: #40A399;
 }

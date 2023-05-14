@@ -1,5 +1,11 @@
 html, body {
     scroll-behavior: smooth;
+    background-color: rgb(227, 215, 200);
+}
+
+@font-face {
+    font-family: 'KelsonRegularEN';
+    src: url('../fonts/KelsonSansRegular.otf');
 }
 
 .brand-img {
@@ -54,9 +60,11 @@ html, body {
 }
 
 .snippet {
-	font-size: xx-large;
+	/*font-size: xx-large;*/
+    font-size: 30px;
 	margin-right: 10vw !important;
 	color: #40A399;
+    font-weight: lighter;
 }
 
 .header {

@@ -19,7 +19,7 @@ function collapse() {
 
     $('.switch-locale').off('click', collapse);
 
-    $('.dropdown-menu').on('click', 'a', swapLocale);
+    $('#locale-dropdown-menu').on('click', 'a', swapLocale);
 
 
     function toggleCollapse(element) {

@@ -52,7 +52,6 @@
             <!--  -->
 
             <li class="nav-item my-auto mx-sm-0 mx-lg-auto">
-                <!--          <a class="nav-link my-auto" href="#church" data-i18n="church"></a>-->
                 <div class="dropdown">
                     <button class="dropdown-toggle btn nav-link" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -147,6 +146,14 @@
     </div>
 </div>
 
+<div class="container-fluid pt-md-5 pt-sm-3 mt-2" id="address-page">
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="map" class="rounded mx-auto"></div>
+        </div>
+    </div>
+</div>
+
 
 <!-- JScript for Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -155,9 +162,6 @@
         integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
         crossorigin="anonymous"></script>
 <!--  -->
-<!-- Fonts -->
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <!--  -->
 <!-- i18n -->
 <script src="./assets/js/jquery.i18n/src/jquery.i18n.js"></script>
@@ -169,5 +173,9 @@
 <script src="./assets/js/jquery.i18n/src/jquery.i18n.parser.js"></script>
 <script src="./assets/js/i18n/i18n.js"></script>
 <script src="./assets/js/main.js"></script>
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-iPi5ZRcchAeBtlrzWlbyrjXmNsQ9K4E&callback=initMap&v=weekly"
+        defer
+></script>
 </body>
 </html>

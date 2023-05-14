@@ -22,9 +22,9 @@ html, body {
     content: url(../icons/flags/GB.png);
 }
 
-.rus-flag {
-	content: url(../icons/flags/RU.png);
-}
+/*.rus-flag {*/
+/*	content: url(../icons/flags/RU.png);*/
+/*}*/
 
 .carousel {
 	margin-top: 90px;
@@ -76,7 +76,16 @@ a {
     color: black;
 }
 
-.navbar-toggler
+.navbar-toggler,
 .dropdown-toggle{
     border-width: 0;
+}
+
+#address-page {
+    min-height: 100px;
+}
+
+#map {
+    width: 90vw;
+    height: 40vh;
 }

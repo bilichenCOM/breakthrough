@@ -75,3 +75,8 @@ html, body {
 a {
     color: black;
 }
+
+.navbar-toggler
+.dropdown-toggle{
+    border-width: 0;
+}

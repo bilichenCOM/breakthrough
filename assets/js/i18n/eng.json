@@ -3,10 +3,15 @@
     "ukrLocale" : "UKR",
     "engLocale" : "ENG",
     "rusLocale" : "RUS",
-    "main-page" : "Main",
-    "about-us" : "About us",
-    "contact-us" : "Contact us",
+    "church" : "Church",
+    "construction" : "Construction",
+    "address" : "Address",
     "snippet-1" : "For even as the Father has life in Himself and is self-existent, so He has given to the Son to have life in Himself and be self-existent.",
     "snippet-2" : "THEREFORE BE imitators of God [copy Him and follow His example], as well-beloved children [imitate their father].",
-    "snippet-3" : "For God did not give us a spirit of timidity (of cowardice, of craven and cringing and fawning fear), but [He has given us a spirit] of power and of love and of calm and well-balanced mind and discipline and self-control."
+    "snippet-3" : "For God did not give us a spirit of timidity (of cowardice, of craven and cringing and fawning fear), but [He has given us a spirit] of power and of love and of calm and well-balanced mind and discipline and self-control.",
+    "online-worship": "Online Worship",
+    "pastor": "Pastor",
+    "worship": "Worship",
+    "children-worship": "Children worship",
+    "english-for-children": "English for children"
 }

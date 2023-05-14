@@ -2,15 +2,15 @@ function collapse() {
     $('.navbar-collapse').collapse('hide');
   }
 
-  function swap(e) {
+  function swapLocale(e) {
     var selected = $(this).html();
     var selectedlocale = $(this).data('locale');
-    var replace = $('.dropdown-toggle').html();
-    var replacelocale = $('.dropdown-toggle').data('locale');
+    var replace = $('#locale-dropdown').html();
+    var replacelocale = $('#locale-dropdown').data('locale');
 
-    $('.dropdown-toggle').html(selected);
+    $('#locale-dropdown').html(selected);
     $(this).html(replace);
-    $('.dropdown-toggle').data('locale', selectedlocale);
+    $('#locale-dropdown').data('locale', selectedlocale);
     $(this).data('locale', replacelocale);
   }
   
@@ -19,7 +19,7 @@ function collapse() {
 
     $('.switch-locale').off('click', collapse);
 
-    $('.dropdown-menu').on('click', 'a', swap);
+    $('.dropdown-menu').on('click', 'a', swapLocale);
 
 
     function toggleCollapse(element) {

@@ -27,17 +27,20 @@
       <ul class="nav navbar-nav col-sm-5 px-sm-0">
 
         <!-- I18N -->
-        <li class="nav-item dropdown my-auto mx-sm-0 mx-lg-auto">
-          <a class="nav-link dropdown-toggle switch-locale bg-light" data-locale="ukr" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="ukr-flag mr-1"></span><span data-i18n="ukrLocale"></span>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="nav-link dropdown-item switch-locale" data-locale="eng" href="#">
-              <span class="eng-flag mr-1"></span><span data-i18n="engLocale"></span>
+        <li class="nav-item my-auto mx-sm-0 mx-lg-auto">
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle switch-locale bg-light" data-locale="ukr" id="locale-dropdown"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="ukr-flag mr-1"></span><span data-i18n="ukrLocale"></span>
             </a>
-            <a class="nav-link dropdown-item switch-locale" data-locale="rus" href="#">
-              <span data-i18n="rusLocale"></span>
-            </a>
+            <div class="dropdown-menu" aria-labelledby="locale-dropdown">
+              <a class="nav-link dropdown-item switch-locale" data-locale="eng" href="#">
+                <span class="eng-flag mr-1"></span><span data-i18n="engLocale"></span>
+              </a>
+              <a class="nav-link dropdown-item switch-locale" data-locale="rus" href="#">
+                <span data-i18n="rusLocale"></span>
+              </a>
+            </div>
           </div>
         </li>
         <!--  -->

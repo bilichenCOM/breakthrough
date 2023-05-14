@@ -1,3 +1,6 @@
+var churchLatitude = 46.570126;
+var churchLongitude = 30.788651;
+
 function collapse() {
     $('.navbar-collapse').collapse('hide');
 }
@@ -50,7 +53,7 @@ $('.col-cat').on('click', function () {
 })
 
 function initMap() {
-    const myLatLng = {lat: 46.570272, lng: 30.788369};
+    const myLatLng = {lat: churchLatitude, lng: churchLongitude};
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 15,
         center: myLatLng,

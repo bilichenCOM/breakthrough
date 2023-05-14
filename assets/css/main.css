@@ -89,3 +89,7 @@ a {
     width: 90vw;
     height: 40vh;
 }
+
+.church-menu {
+    border-width: 0px;
+}

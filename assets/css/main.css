@@ -8,6 +8,21 @@ html, body {
     src: url('../fonts/KelsonSansRegular.otf');
 }
 
+@font-face {
+    font-family: 'CormorantRegular';
+    src: url('../fonts/CormorantUnicase-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'CormorantMedium';
+    src: url('../fonts/CormorantUnicase-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'CormorantBold';
+    src: url('../fonts/CormorantUnicase-Bold.ttf');
+}
+
 .brand-img {
   height: 80px;
   width: auto;
@@ -92,4 +107,27 @@ a {
 
 .church-menu {
     border-width: 0px;
+}
+
+.fa-brands {
+    font-size: 30px;
+}
+
+.video {
+    border-width: 0px;
+    width: 100%;
+    height: 30vmax;
+}
+
+.pastor-image {
+    height: 80vmin;
+}
+
+.pastor-text {
+    font-size: 25px;
+    font-family: CormorantBold;
+}
+
+.horizontal-line {
+    border-width: 2px;
 }

@@ -139,3 +139,16 @@ a {
     min-height: 100px;
     color: white;
 }
+
+.history-button {
+    border-color: #40A399;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #40A399;
+}
+
+.history-button:active {
+    background-color: #40A399;
+    color: white;
+}

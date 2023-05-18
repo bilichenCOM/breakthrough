@@ -3,7 +3,7 @@
     "ukrLocale" : "УКР",
     "engLocale" : "ENG",
     "rusLocale" : "РУС",
-    "church" : "Церковь",
+    "about-us": "Про нас",
     "construction" : "Строительство",
     "address" : "Адрес",
     "snippet-1" : "Отец — источник жизни, и Сыну Он позволил быть источником жизни. ОТ ИОАННА 5:26",
@@ -16,5 +16,6 @@
     "english-for-children": "Английский для детей",
     "contacts": "Контакты",
     "address-line": "",
-    "open-time": ""
+    "open-time": "",
+    "history": "История"
 }

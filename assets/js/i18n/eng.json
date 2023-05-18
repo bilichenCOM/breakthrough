@@ -3,7 +3,7 @@
     "ukrLocale" : "UKR",
     "engLocale" : "ENG",
     "rusLocale" : "RUS",
-    "church" : "Church",
+    "about-us": "About us",
     "construction" : "Construction",
     "address" : "Address",
     "snippet-1" : "For even as the Father has life in Himself and is self-existent, so He has given to the Son to have life in Himself and be self-existent.",
@@ -16,5 +16,6 @@
     "english-for-children": "English for children",
     "contacts": "Contacts",
     "address-line": "",
-    "open-time": ""
+    "open-time": "",
+    "history": "History"
 }

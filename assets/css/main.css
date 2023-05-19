@@ -151,4 +151,5 @@ a {
 .history-button:active {
     background-color: #40A399;
     color: white;
+    border-width: 1px;
 }

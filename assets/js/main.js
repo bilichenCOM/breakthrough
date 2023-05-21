@@ -66,4 +66,6 @@ function initMap() {
     });
 }
 
-window.initMap = initMap;
+function toggleHistory() {
+    $(".history-toggle").toggle();
+}

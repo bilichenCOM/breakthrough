@@ -41,7 +41,7 @@ html, body {
 /*	content: url(../icons/flags/RU.png);*/
 /*}*/
 
-.carousel {
+.carousel-main {
     margin-top: 90px;
     background-image: url(../images/background.jpg);
     background-position: center;
@@ -144,12 +144,24 @@ a {
     border-color: #40A399;
     color: white;
     font-size: 20px;
-    border-radius: 10px;
     background-color: #40A399;
 }
 
-.history-button:active {
-    background-color: #40A399;
-    color: white;
-    border-width: 1px;
+.history-button:hover, .history-button:active {
+    color: #40A399;
+    background-color: transparent;
+}
+
+.history-toggle.row, .history-toggle.fa-chevron-up {
+    display: none;
+}
+
+#children-indicators {
+    max-height: 60vh;
+}
+
+.img-carousel {
+    height: 60vh;
+    width: auto;
+
 }

@@ -91,7 +91,7 @@
     </div>
 </nav>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel carousel-main slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -164,11 +164,76 @@
             <hr class="horizontal-line"/>
         </div>
     </div>
+</div>
+
+<div class="container mt-3">
     <div class="row">
         <div class="col-sm-6 col-md-3 mx-auto">
-            <button class="w-100 history-button">
+            <button class="w-100 btn history-button" onclick="toggleHistory()">
                 <span data-i18n="history"></span>
+                <i class="fa-solid fa-chevron-down history-chevron-down history-toggle"></i>
+                <i class="fa-solid fa-chevron-up history-chevron-up history-toggle"></i>
             </button>
+        </div>
+    </div>
+    <div class="row history-toggle">
+        <div class="col-sm-12 col-md-8">
+            <div data-i18n="history-text"></div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-sm-8 mx-auto">
+            <hr class="horizontal-line"/>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-3" id="children-worship">
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="text-uppercase header text-center text-dark" data-i18n="children-worship"></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="children-indicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#children-indicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#children-indicators" data-slide-to="1"></li>
+                    <li data-target="#children-indicators" data-slide-to="2"></li>
+                    <li data-target="#children-indicators" data-slide-to="3"></li>
+                    <li data-target="#children-indicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner children-carousel">
+                    <div class="carousel-item active">
+                        <video class="construction-video" autoplay muted loop>
+                            <source src="assets/video/children-5.mov">
+                        </video>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="assets/images/children-2.jpg" class="img-carousel">
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="assets/images/children-3.jpg" class="img-carousel">
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="assets/images/children-4.jpg" class="img-carousel">
+                    </div>
+                    <div class="carousel-item text-center">
+                        <video class="construction-video" autoplay muted loop>
+                            <source src="assets/video/children-1.mov">
+                        </video>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#children-indicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#children-indicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
     </div>
 </div>

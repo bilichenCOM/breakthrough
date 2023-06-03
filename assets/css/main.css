@@ -41,13 +41,25 @@ html, body {
 /*	content: url(../icons/flags/RU.png);*/
 /*}*/
 
-.carousel-main {
-    margin-top: 90px;
-    background-image: url(../images/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+/*.carousel-main {*/
+/*    margin-top: 90px;*/
+/*    background-image: url(../images/background-2.jpg);*/
+/*    !*background-position: center;*!*/
+/*    !*background-repeat: no-repeat;*!*/
+/*    background-size: cover;*/
+/*    min-height: 70vh;*/
+/*}*/
+
+#header {
+    background-image: url("../images/background-2.JPG");
     background-size: cover;
-    min-height: 70vh;
+    background-position: center;
+    min-height: 80vh;
+}
+
+.header-img {
+    max-height: 80vh;
+    margin-top: 10vh;
 }
 
 .carousel-control-prev-icon,
@@ -137,7 +149,7 @@ a {
 .socials, .socials a {
     margin-top: -80px;
     min-height: 100px;
-    color: white;
+    color: black;
 }
 
 .history-button {

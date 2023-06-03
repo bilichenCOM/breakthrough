@@ -51,7 +51,8 @@ html, body {
 /*}*/
 
 #header {
-    background-image: url("../images/jxrLRO.webp");
+    /*background-image: url("../images/jxrLRO.webp");*/
+    background-color: white;
     background-size: cover;
     background-position: center;
     min-height: 80vh;
@@ -59,7 +60,7 @@ html, body {
 
 .header-img {
     max-height: 80vh;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
 .carousel-control-prev-icon,
